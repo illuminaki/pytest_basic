@@ -1,0 +1,3 @@
+coverage==7.6.0 # Para mostrar la cubertura de las pruebas
+flake8==6.0.0 # Para linting y chequeo de estilo de código
+black==23.3.0 # Para formateo automático de código

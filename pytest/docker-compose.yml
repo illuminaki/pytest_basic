@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: task_app
+    volumes:
+      - .:/app
+    command: python main.py
+    tty: true
